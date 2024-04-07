@@ -1,0 +1,70 @@
+.card{
+    position: relative;
+}
+.card:hover .card__img{
+	animation: opacity 1s ease-in-out;
+}
+@keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.card:hover .card__icon {
+	animation: slide 0.5s ease-in-out;
+}
+@keyframes slide {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -20px;
+	}
+	100% {
+		top: 0;
+	}
+}
+.card__link{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.card__img{
+    margin-bottom: 28px;
+    border-radius: 20px;
+}
+
+.card__body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+.card__title{
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.56;
+    letter-spacing: -0.04em;
+}
+.card__muted{
+    font-weight: 500;
+    font-size: 24px;
+    list-style: 2.08;
+    letter-spacing: -0.04em;
+    color: var(--gray);
+}
+.card__icon{
+    position: relative;
+    transform: rotate(-90deg);
+}

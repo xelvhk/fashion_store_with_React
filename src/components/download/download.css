@@ -1,0 +1,38 @@
+.download{
+    margin-bottom: 63px;
+}.download__image{
+    max-width: 500px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.download__content{
+    width: 100%;
+    color: #2c2b61;
+    background: #fff;
+    display: flex;
+    column-gap: 24px;
+    padding-top: 160px;
+    padding-left: 100px;
+
+}
+.download__title{
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+.download__desc{
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5em;
+    letter-spacing: -0.05em;
+}
+.download__desc p {
+    margin-bottom: 20px;
+}
+.download__desc img{
+    padding-right:20px;
+}

@@ -1,0 +1,68 @@
+.voucher{
+    margin-bottom: 63px;
+}.voucher__image{
+    max-width: 600px;
+}
+.voucher__content{
+    width: 100%;
+    color: #2c2b61;
+    background: linear-gradient(0deg, rgba(253,187,45,1) 27%, rgba(255,237,101,1) 100%);
+    display: flex;
+    column-gap: 24px;
+    padding-top: 66px;
+    padding-left: 120px;
+
+}
+.voucher__title{
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.5em;
+}
+.voucher__desc{
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5em;
+    letter-spacing: -0.05em;
+}
+.voucher__desc p {
+    margin-bottom: 20px;
+}
+.voucher__btn-wrapper{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+.voucher__btn{
+    padding: 13px 22px 17px;
+    background-color: #2c2b61;
+    color: var(--yellow);
+    border-radius: 7px;;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: -0.03em;
+}
+.highlight{
+    position: relative;
+}
+.highlight::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    left: -40px;
+    right: -100px;
+    background-color: #fff;
+    transform: rotate(-3deg);
+}
+.highlight span{
+    position: relative;
+    z-index: 1;
+}
+.highlight--yellow::before{
+    background-color: var(--yellow);
+    right: -90px;}
