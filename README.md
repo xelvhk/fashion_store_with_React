@@ -10,7 +10,7 @@ I made a few components for blocks of landing page. Some of them are: "Arrivals"
 <details>
 <summary>Screenshot of app page</summary><img src="#"></details>
 
-### How can i run this?
+## How can i run this?
 - Clone this repo with `git clone https://github.com/lexkh/first-project-fashion-react.git`;
 - Go to the folder `first-project-fashion-react`;
 - Print the command in terminal `npm i`;
